@@ -15,7 +15,7 @@ namespace MVC_MultiTenancy.Controllers {
             _logger = logger;
         }
 
-        public IActionResult Index(Company? c = null) {
+        public IActionResult Index() {
 
             return View();
         }
